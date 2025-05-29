@@ -1,0 +1,907 @@
+.is-layout-constrained
+    > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+    max-width: none;
+}
+
+.wp-container-core-navigation-is-layout-d445cf74 {
+    justify-content: flex-end;
+}
+
+.wp-container-core-group-is-layout-6c531013 {
+    flex-wrap: nowrap;
+}
+
+.wp-container-core-navigation-is-layout-fc306653 {
+    justify-content: flex-end;
+}
+
+.wp-container-core-group-is-layout-9fd45780 {
+    flex-wrap: nowrap;
+    gap: var(--wp--preset--spacing--10);
+    justify-content: flex-start;
+}
+
+.wp-container-core-group-is-layout-fc9f69e7 {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.wp-container-core-buttons-is-layout-8c5cd02a {
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.wp-container-core-group-is-layout-e5fbeb3a {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.wp-container-core-group-is-layout-80fb368b > .alignfull {
+    margin-right: calc(var(--wp--preset--spacing--30) * -1);
+    margin-left: calc(var(--wp--preset--spacing--30) * -1);
+}
+
+.wp-container-core-group-is-layout-2256e7f1 {
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.wp-container-core-columns-is-layout-28f84493 {
+    flex-wrap: nowrap;
+}
+
+.wp-container-core-group-is-layout-f98cf28f {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.wp-container-core-group-is-layout-085bd3d9
+    > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+    max-width: 400px;
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+.wp-container-core-group-is-layout-085bd3d9 > .alignwide {
+    max-width: 400px;
+}
+
+.wp-container-core-group-is-layout-085bd3d9 .alignfull {
+    max-width: none;
+}
+
+.wp-container-core-group-is-layout-085bd3d9 > .alignfull {
+    margin-right: calc(0px * -1);
+    margin-left: calc(0px * -1);
+}
+
+.wp-container-core-quote-is-layout-f5bb311e > * {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.wp-container-core-quote-is-layout-f5bb311e > * + * {
+    margin-block-start: var(--wp--preset--spacing--30);
+    margin-block-end: 0;
+}
+
+.wp-container-core-columns-is-layout-714d85e9 {
+    flex-wrap: nowrap;
+    gap: var(--wp--preset--spacing--60) var(--wp--preset--spacing--50);
+}
+
+.wp-container-core-group-is-layout-0d85de7f > * {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.wp-container-core-group-is-layout-0d85de7f > * + * {
+    margin-block-start: var(--wp--preset--spacing--50);
+    margin-block-end: 0;
+}
+
+.wp-container-core-post-content-is-layout-1a5a651a
+    > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+    max-width: 1340px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.wp-container-core-post-content-is-layout-1a5a651a > .alignwide {
+    max-width: 1340px;
+}
+
+.wp-container-core-post-content-is-layout-1a5a651a .alignfull {
+    max-width: none;
+}
+
+.wp-container-core-navigation-is-layout-fe9cc265 {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.wp-container-core-navigation-is-layout-b2891da8 {
+    justify-content: space-between;
+}
+
+.wp-container-core-group-is-layout-cbeee361 {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wp-container-core-group-is-layout-91e87306 {
+    gap: var(--wp--preset--spacing--20);
+    justify-content: space-between;
+}
+
+:root :where(.is-style-section-1--3 .wp-block-separator) {
+    color: color-mix(in srgb, currentColor 25%, transparent);
+}
+
+:root :where(.is-style-section-1--3 .wp-block-site-title) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--3
+            .wp-block-site-title
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--3 .wp-block-post-author-name) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--3
+            .wp-block-post-author-name
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--3 .wp-block-post-date) {
+    color: color-mix(in srgb, currentColor 85%, transparent);
+}
+
+:root
+    :where(
+        .is-style-section-1--3
+            .wp-block-post-date
+            a:where(:not(.wp-element-button))
+    ) {
+    color: color-mix(in srgb, currentColor 85%, transparent);
+}
+
+:root :where(.is-style-section-1--3 .wp-block-post-terms) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--3
+            .wp-block-post-terms
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--3 .wp-block-comment-author-name) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--3
+            .wp-block-comment-author-name
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--3 .wp-block-comment-date) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--3
+            .wp-block-comment-date
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--3 .wp-block-comment-edit-link) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--3
+            .wp-block-comment-edit-link
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--3 .wp-block-comment-reply-link) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--3
+            .wp-block-comment-reply-link
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--3 .wp-block-pullquote) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--3 .wp-block-quote) {
+    color: currentColor;
+}
+
+:root :where(.wp-block-group.is-style-section-1--3) {
+    background-color: var(--wp--preset--color--accent-5);
+    color: var(--wp--preset--color--contrast);
+}
+
+:root :where(.is-style-section-1--4 .wp-block-separator) {
+    color: color-mix(in srgb, currentColor 25%, transparent);
+}
+
+:root :where(.is-style-section-1--4 .wp-block-site-title) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--4
+            .wp-block-site-title
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--4 .wp-block-post-author-name) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--4
+            .wp-block-post-author-name
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--4 .wp-block-post-date) {
+    color: color-mix(in srgb, currentColor 85%, transparent);
+}
+
+:root
+    :where(
+        .is-style-section-1--4
+            .wp-block-post-date
+            a:where(:not(.wp-element-button))
+    ) {
+    color: color-mix(in srgb, currentColor 85%, transparent);
+}
+
+:root :where(.is-style-section-1--4 .wp-block-post-terms) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--4
+            .wp-block-post-terms
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--4 .wp-block-comment-author-name) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--4
+            .wp-block-comment-author-name
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--4 .wp-block-comment-date) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--4
+            .wp-block-comment-date
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--4 .wp-block-comment-edit-link) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--4
+            .wp-block-comment-edit-link
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--4 .wp-block-comment-reply-link) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--4
+            .wp-block-comment-reply-link
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--4 .wp-block-pullquote) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--4 .wp-block-quote) {
+    color: currentColor;
+}
+
+:root :where(.wp-block-group.is-style-section-1--4) {
+    background-color: var(--wp--preset--color--accent-5);
+    color: var(--wp--preset--color--contrast);
+}
+
+:root :where(.is-style-section-1--5 .wp-block-separator) {
+    color: color-mix(in srgb, currentColor 25%, transparent);
+}
+
+:root :where(.is-style-section-1--5 .wp-block-site-title) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--5
+            .wp-block-site-title
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--5 .wp-block-post-author-name) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--5
+            .wp-block-post-author-name
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--5 .wp-block-post-date) {
+    color: color-mix(in srgb, currentColor 85%, transparent);
+}
+
+:root
+    :where(
+        .is-style-section-1--5
+            .wp-block-post-date
+            a:where(:not(.wp-element-button))
+    ) {
+    color: color-mix(in srgb, currentColor 85%, transparent);
+}
+
+:root :where(.is-style-section-1--5 .wp-block-post-terms) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--5
+            .wp-block-post-terms
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--5 .wp-block-comment-author-name) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--5
+            .wp-block-comment-author-name
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--5 .wp-block-comment-date) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--5
+            .wp-block-comment-date
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--5 .wp-block-comment-edit-link) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--5
+            .wp-block-comment-edit-link
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--5 .wp-block-comment-reply-link) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--5
+            .wp-block-comment-reply-link
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--5 .wp-block-pullquote) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--5 .wp-block-quote) {
+    color: currentColor;
+}
+
+:root :where(.wp-block-group.is-style-section-1--5) {
+    background-color: var(--wp--preset--color--accent-5);
+    color: var(--wp--preset--color--contrast);
+}
+
+:root :where(.is-style-section-1--6 .wp-block-separator) {
+    color: color-mix(in srgb, currentColor 25%, transparent);
+}
+
+:root :where(.is-style-section-1--6 .wp-block-site-title) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--6
+            .wp-block-site-title
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--6 .wp-block-post-author-name) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--6
+            .wp-block-post-author-name
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--6 .wp-block-post-date) {
+    color: color-mix(in srgb, currentColor 85%, transparent);
+}
+
+:root
+    :where(
+        .is-style-section-1--6
+            .wp-block-post-date
+            a:where(:not(.wp-element-button))
+    ) {
+    color: color-mix(in srgb, currentColor 85%, transparent);
+}
+
+:root :where(.is-style-section-1--6 .wp-block-post-terms) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--6
+            .wp-block-post-terms
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--6 .wp-block-comment-author-name) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--6
+            .wp-block-comment-author-name
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--6 .wp-block-comment-date) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--6
+            .wp-block-comment-date
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--6 .wp-block-comment-edit-link) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--6
+            .wp-block-comment-edit-link
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--6 .wp-block-comment-reply-link) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--6
+            .wp-block-comment-reply-link
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--6 .wp-block-pullquote) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--6 .wp-block-quote) {
+    color: currentColor;
+}
+
+:root :where(.wp-block-group.is-style-section-1--6) {
+    background-color: var(--wp--preset--color--accent-5);
+    color: var(--wp--preset--color--contrast);
+}
+
+:root :where(.is-style-section-1--7 .wp-block-separator) {
+    color: color-mix(in srgb, currentColor 25%, transparent);
+}
+
+:root :where(.is-style-section-1--7 .wp-block-site-title) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--7
+            .wp-block-site-title
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--7 .wp-block-post-author-name) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--7
+            .wp-block-post-author-name
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--7 .wp-block-post-date) {
+    color: color-mix(in srgb, currentColor 85%, transparent);
+}
+
+:root
+    :where(
+        .is-style-section-1--7
+            .wp-block-post-date
+            a:where(:not(.wp-element-button))
+    ) {
+    color: color-mix(in srgb, currentColor 85%, transparent);
+}
+
+:root :where(.is-style-section-1--7 .wp-block-post-terms) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--7
+            .wp-block-post-terms
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--7 .wp-block-comment-author-name) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--7
+            .wp-block-comment-author-name
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--7 .wp-block-comment-date) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--7
+            .wp-block-comment-date
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--7 .wp-block-comment-edit-link) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--7
+            .wp-block-comment-edit-link
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--7 .wp-block-comment-reply-link) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-1--7
+            .wp-block-comment-reply-link
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--7 .wp-block-pullquote) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-1--7 .wp-block-quote) {
+    color: currentColor;
+}
+
+:root :where(.wp-block-group.is-style-section-1--7) {
+    background-color: var(--wp--preset--color--accent-5);
+    color: var(--wp--preset--color--contrast);
+}
+
+:root :where(.wp-block-quote.is-style-plain--8) {
+    border-radius: 0;
+    border-color: transparent;
+    border-width: 0;
+    border-style: none;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+:root :where(.wp-block-quote.is-style-plain--9) {
+    border-radius: 0;
+    border-color: transparent;
+    border-width: 0;
+    border-style: none;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+:root :where(.wp-block-quote.is-style-plain--10) {
+    border-radius: 0;
+    border-color: transparent;
+    border-width: 0;
+    border-style: none;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+:root
+    :where(
+        .is-style-section-5--11 .wp-element-button,
+        .is-style-section-5--11 .wp-block-button__link
+    ) {
+    background-color: var(--wp--preset--color--base);
+    color: var(--wp--preset--color--contrast);
+}
+
+:root
+    :where(
+        .is-style-section-5--11 .wp-element-button:hover,
+        .is-style-section-5--11 .wp-block-button__link:hover
+    ) {
+    background-color: color-mix(
+        in srgb,
+        var(--wp--preset--color--base) 80%,
+        transparent
+    );
+    color: var(--wp--preset--color--contrast);
+}
+
+:root :where(.is-style-section-5--11 .wp-block-separator) {
+    color: color-mix(in srgb, currentColor 25%, transparent);
+}
+
+:root :where(.is-style-section-5--11 .wp-block-post-author-name) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-5--11
+            .wp-block-post-author-name
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-5--11 .wp-block-post-date) {
+    color: color-mix(in srgb, currentColor 85%, transparent);
+}
+
+:root
+    :where(
+        .is-style-section-5--11
+            .wp-block-post-date
+            a:where(:not(.wp-element-button))
+    ) {
+    color: color-mix(in srgb, currentColor 85%, transparent);
+}
+
+:root :where(.is-style-section-5--11 .wp-block-post-terms) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-5--11
+            .wp-block-post-terms
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-5--11 .wp-block-comment-author-name) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-5--11
+            .wp-block-comment-author-name
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-5--11 .wp-block-comment-date) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-5--11
+            .wp-block-comment-date
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-5--11 .wp-block-comment-edit-link) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-5--11
+            .wp-block-comment-edit-link
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-5--11 .wp-block-comment-reply-link) {
+    color: currentColor;
+}
+
+:root
+    :where(
+        .is-style-section-5--11
+            .wp-block-comment-reply-link
+            a:where(:not(.wp-element-button))
+    ) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-5--11 .wp-block-pullquote) {
+    color: currentColor;
+}
+
+:root :where(.is-style-section-5--11 .wp-block-quote) {
+    color: currentColor;
+}
+
+:root :where(.wp-block-group.is-style-section-5--11) {
+    background-color: var(--wp--preset--color--contrast);
+    color: var(--wp--preset--color--base);
+}
+
+:root :where(.wp-block-separator.is-style-wide--13:not(.alignfull)) {
+    max-width: var(--wp--style--global--wide-size) !important;
+}

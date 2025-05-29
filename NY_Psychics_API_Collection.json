@@ -1,0 +1,217 @@
+{
+	"info": {
+		"_postman_id": "6a1351aa-a115-4a44-934c-e14c81af03ff",
+		"name": "NY Psychics API",
+		"description": "API collection for NY Psychics Web application",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11938656"
+	},
+	"item": [
+		{
+			"name": "Psychics",
+			"item": [
+				{
+					"name": "Get All Psychics",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-API-KEY",
+								"value": "{{api_key}}"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/psychics",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"psychics"
+							]
+						},
+						"description": "Get a list of all psychics"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Top Psychics",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-API-KEY",
+								"value": "{{api_key}}"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/psychics/top",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"psychics",
+								"top"
+							]
+						},
+						"description": "Get a list of top-rated psychics"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Psychic by ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-API-KEY",
+								"value": "{{api_key}}"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/psychics/1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"psychics",
+								"1"
+							]
+						},
+						"description": "Get detailed information about a specific psychic"
+					},
+					"response": []
+				}
+			],
+			"description": "Psychic-related endpoints"
+		},
+		{
+			"name": "Psychic Services",
+			"item": [
+				{
+					"name": "Get All Psychic Services",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-API-KEY",
+								"value": "{{api_key}}"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/psychic-services",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"psychic-services"
+							]
+						},
+						"description": "Get a list of all psychic services"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Psychic Service by ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-API-KEY",
+								"value": "{{api_key}}"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/psychic-services/1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"psychic-services",
+								"1"
+							]
+						},
+						"description": "Get detailed information about a specific psychic service"
+					},
+					"response": []
+				}
+			],
+			"description": "Psychic services endpoints"
+		},
+		{
+			"name": "Site",
+			"item": [
+				{
+					"name": "Get Site Settings",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-API-KEY",
+								"value": "{{api_key}}"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/site-settings",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"site-settings"
+							]
+						},
+						"description": "Get site settings and configuration"
+					},
+					"response": []
+				}
+			],
+			"description": "Site-related endpoints"
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:8000",
+			"type": "string"
+		},
+		{
+			"key": "api_key",
+			"value": "your-api-key-here",
+			"type": "string"
+		},
+		{
+			"key": "auth_token",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
